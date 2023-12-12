@@ -1,4 +1,4 @@
-d3.json("../data/rentData.json", function (error, data) {
+d3.json("https://cosi116a-brandeis-infovis-fall23.github.io/cosi-116a-final-project-grad-team7/data/rentData.json", function (error, data) {
   if (error) throw error;
 
   //sort the data
